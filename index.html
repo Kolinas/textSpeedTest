@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Проверьте свою скорость печати</h1>
+        <div id="select">
+            <p>Выберите стартовое время</p>
+            <button>10 секунд</button>
+            <button>30 секунд</button>
+            <button>60 секунд</button>
+        </div>
+        <p class="start hide">Начните вводить текст, чтобы начать проверку скорости</p>
+        <p class="test hide">Тест запущен со временем <span id="time"></span> секунд</p>
+        <!-- <button id="start-btn">Начать</button> -->
+        <div id="text-container">
+          <textarea disabled name="" id="input" cols="5" rows="5"></textarea>
+        </div>
+        <div id='timer'></div>
+        <div id="result" class='hide'>
+          <p>Ваша скорость печати: <span id="wpm"></span> символов в минуту.</p>
+          <button id='reload'>Сбросить результат</button>
+        </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
