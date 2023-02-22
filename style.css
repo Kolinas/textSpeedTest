@@ -23,6 +23,11 @@
     color: #fff;
     cursor: pointer;
   }
+
+  #select button {
+    margin-bottom: 10px;
+  }
+
   
   #text-container {
     margin-top: 2rem;
@@ -33,7 +38,7 @@
   }
   
   #input{
-    width: 70%;
+    width: 100%;
   }
   
   .hide{
